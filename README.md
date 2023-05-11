@@ -7,6 +7,8 @@ This module uses kaggle api to get the dataset from the https://www.kaggle.com/d
 ### !!! it requires kaggle api token - which needs to be created manually
 https://www.kaggle.com/docs/api
 
+Note: kaggle.json is not included in this repository. It must be created and uploaded separately.
+
 In this exercise it is stored in kaggle.json in the Databricks Workspace dbfs : dbfs:/FileStore/kaggle.json - as we don't have access to the Key Vault
 In real life project secrets should be stored in eg. Azure Key Vault
 
