@@ -4,7 +4,7 @@ analysis of kaggle datasets 2023.05
 
 This module uses kaggle api to get the dataset from the https://www.kaggle.com/datasets/
 
-### !!! it requires kaggle api token - which needs to be created manually
+### 1) !!! it requires kaggle api token - which needs to be created manually
 https://www.kaggle.com/docs/api
 
 Note: kaggle.json is not included in this repository. It must be created and uploaded separately.
@@ -12,9 +12,10 @@ Note: kaggle.json is not included in this repository. It must be created and upl
 In this exercise it is stored in kaggle.json in the Databricks Workspace dbfs : dbfs:/FileStore/kaggle.json - as we don't have access to the Key Vault
 In real life project secrets should be stored in eg. Azure Key Vault
 
-### The code is run from kaggle_ex_notebook.py which need to be imported to Databricks workspace.
+### 2) The code is run from kaggle_ex_notebook.py which needs to be imported to the Databricks workspace.
+kaggle_ex_notebook imports the code from https://pypi.org/project/kagglebh/1.0.0/
 
-
+###########
 This module contains 3 functions:
   function to authenticate kaggle api
 ### kaggle_auth(KAGGLE_USERNAME, KAGGLE_KEY)
