@@ -15,7 +15,7 @@ In real life project secrets should be stored in eg. Azure Key Vault
 ### 2) The code is run from kaggle_ex_notebook.py which needs to be imported to the Databricks workspace.
 kaggle_ex_notebook imports the code from https://pypi.org/project/kagglebh/1.0.0/
 
-###########
+################################### </br>
 This module contains 3 functions:
   function to authenticate kaggle api
 ### kaggle_auth(KAGGLE_USERNAME, KAGGLE_KEY)
