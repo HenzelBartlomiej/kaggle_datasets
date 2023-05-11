@@ -38,3 +38,5 @@ kaggle_ex module contains 3 functions:
     transform_and_write(KAGGLE_FILE_PATH, KAGGLE_FILE_NAME, TARGET_PATH) </br>
     </br>
     To run the whole code user needs to execute just the last fucntion.
+    
+To build the Python package from the source code, download the repository and use: py -m build
