@@ -17,18 +17,18 @@ kaggle_ex_notebook imports the code from https://pypi.org/project/kagglebh/1.0.0
 
 ################################### </br>
 This module contains 3 functions:
-  function to authenticate kaggle api
-### kaggle_auth(KAGGLE_USERNAME, KAGGLE_KEY)
+  - function to authenticate kaggle api
+     kaggle_auth(KAGGLE_USERNAME, KAGGLE_KEY)
 
-  function to read csv file saved in a driver vm
-### read_csv(path)
+  - function to read csv file saved in a driver vm
+    read_csv(path)
 
-  function to 
+  - function to 
     1 upload from kaggle, 
     2 unzip it 
     3 read csv file saved in a driver vm - in real life project data would be stored in some cloud storage account
     4 transform input data
     5 save the data as parquet in a target destination
-### transform_and_write(KAGGLE_FILE_PATH, KAGGLE_FILE_NAME, TARGET_PATH)
+    transform_and_write(KAGGLE_FILE_PATH, KAGGLE_FILE_NAME, TARGET_PATH)
 
 
